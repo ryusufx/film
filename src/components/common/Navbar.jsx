@@ -64,7 +64,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        <img src="/logo.png" alt="Rebahan" className="navbar-logo-img" />
+        <img src="/logo.png" alt="ryusufx" className="navbar-logo-img" />
         <span>Rebahan</span>
       </Link>
 
