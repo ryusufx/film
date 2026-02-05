@@ -12,9 +12,9 @@ const Home = () => {
 
     const [trending, setTrending] = useState([]);
     const [sections, setSections] = useState({
+        anime: { title: 'Anime', data: [], loading: true, link: '/category/anime' },
         kDrama: { title: 'K-Drama', data: [], loading: true, link: '/category/kdrama' },
         shortTv: { title: 'Short TV', data: [], loading: true, link: '/category/short-tv' },
-        anime: { title: 'Anime', data: [], loading: true, link: '/category/anime' },
         westernTv: { title: 'Western TV', data: [], loading: true, link: '/category/western-tv' },
         indoDub: { title: 'Indo Dub', data: [], loading: true, link: '/category/indo-dub' },
     });
