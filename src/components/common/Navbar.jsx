@@ -71,11 +71,12 @@ const Navbar = () => {
       <div className={`navLinks ${isMobileMenuOpen ? 'open' : ''}`}>
         <Link to="/" className="navLink">Home</Link>
         <Link to="/categories" className="navLink">All Categories</Link>
+        <Link to="/category/anime" className="navLink">Anime</Link>
+        <Link to="/category/indo-dub" className="navLink">Indo Dub</Link>
         <Link to="/category/kdrama" className="navLink">K-Drama</Link>
         <Link to="/category/short-tv" className="navLink">Short TV</Link>
-        <Link to="/category/anime" className="navLink">Anime</Link>
         <Link to="/category/western-tv" className="navLink">Western TV</Link>
-        <Link to="/category/indo-dub" className="navLink">Indo Dub</Link>
+        
       </div>
 
       <div className="rightSection">
